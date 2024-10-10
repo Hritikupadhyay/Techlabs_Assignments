@@ -6,11 +6,11 @@ public class SecondLargestElementInArray {
 	public static void main(String[] args)  {
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("Enter the number of elements: ");
+		System.out.println("Enter number of elements: ");
 		int n = scanner.nextInt();
 		int[] arr = new int[n];
 		
-		System.out.println("Enter the Elements: ");
+		System.out.println("Enter Elements: ");
 		for (int i=0;i<n;i++) {
 			arr[i]= scanner.nextInt();
 		}
