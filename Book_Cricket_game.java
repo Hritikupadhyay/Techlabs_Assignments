@@ -6,7 +6,7 @@ public class BookCricket {
 
 	public static void main(String[] args) {
 	
-		Scanner scanner = new Scanner(System.in);
+	Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         
         
@@ -24,7 +24,7 @@ public class BookCricket {
 
                 System.out.println("Page number: " + pageNumber);
                 if (lastDigit == 7 || lastDigit == 8 || lastDigit == 9) {
-                    System.out.println("Player " + (player + 1) + " is out!");
+                    System.out.println("Player " + (player + 1) + " is out");
                     break;
                 } else {
                     scores[player] += lastDigit;
