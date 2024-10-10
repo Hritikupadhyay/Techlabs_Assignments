@@ -11,7 +11,7 @@ public class RollerCoaster {
 
         
         if (height > 120) {
-            System.out.println("You can ride.");
+            System.out.println("You can ride");
             
            
             System.out.print("Enter your age: ");
@@ -28,7 +28,7 @@ public class RollerCoaster {
                 baseCost = 12;
                 
                 if (age >= 45 && age <= 55) {
-                    System.out.println("Special offer applied. No extra charge.");
+                    System.out.println("Special offer applied, no extra charge");
                     baseCost = 0; 
                 }
             }
@@ -48,7 +48,7 @@ public class RollerCoaster {
             
             System.out.println("The total bill is $" + totalBill);
         } else {
-            System.out.println("Sorry, you can't ride.");
+            System.out.println("Sorry, you cannot ride");
         }
 
         
