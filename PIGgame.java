@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class PIGgame {
 
 	public static void main(String[] args) {
+		
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         boolean playAgain = true;
