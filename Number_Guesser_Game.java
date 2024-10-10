@@ -6,7 +6,7 @@ public class NumberGuesser {
 
 	public static void main(String[] args) {
 		
-		Scanner scanner = new Scanner(System.in);
+	Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         boolean playAgain = true;
 
@@ -16,16 +16,16 @@ public class NumberGuesser {
             int guess = 0;
 
              while (guess != randomNumber) {
-                System.out.print("Guess a number (1-100): ");
+                System.out.print("Guess number (1-100): ");
                 guess = scanner.nextInt();
                 attempts++;
 
                 if (guess < randomNumber) {
-                    System.out.println("Sorry, too low.");
+                    System.out.println("Sorry, too low");
                 } else if (guess > randomNumber) {
-                    System.out.println("Sorry, too high.");
+                    System.out.println("Sorry, too high");
                 } else {
-                    System.out.println("You won in " + attempts + " attempt(s)!");
+                    System.out.println("You won in " + attempts + " attempts");
                 }
             }
 
