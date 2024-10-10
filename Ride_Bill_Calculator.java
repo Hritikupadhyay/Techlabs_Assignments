@@ -4,9 +4,8 @@ import java.util.Scanner;
 public class RollerCoaster {
 
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-
-        
+	
+	Scanner scanner = new Scanner(System.in);
         System.out.print("Enter your height in cm: ");
         int height = scanner.nextInt();
 
