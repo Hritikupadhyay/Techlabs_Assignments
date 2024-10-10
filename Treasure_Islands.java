@@ -6,9 +6,9 @@ public class TreasureIsland {
 
 	public static void main(String[] args) {
 		
-		Scanner scanner = new Scanner(System.in);
+	Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Welcome to Treasure Island, Your mission is to find treasure");
+        System.out.println("Welcome to Treasure Island, your mission is to find treasure");
 
         
         System.out.print("Do you want to go left or right? ");
@@ -27,17 +27,17 @@ public class TreasureIsland {
                 if (door.equals("yellow")) {
                     System.out.println("You Win!");
                 } else if (door.equals("red")) {
-                    System.out.println("Burned by fire, Game Over");
+                    System.out.println("Burned by fire, game over");
                 } else if (door.equals("blue")) {
-                    System.out.println("Eaten by beasts, Game Over");
+                    System.out.println("Eaten by beasts, game over");
                 } else {
-                    System.out.println("Game Over");
+                    System.out.println("game over");
                 }
             } else {
-                System.out.println("Attacked by trout, Game Over");
+                System.out.println("Attacked by trout, game over");
             }
         } else {
-            System.out.println("Fall into a hole, Game Over");
+            System.out.println("Fall into a hole, game over");
         }
 
         
