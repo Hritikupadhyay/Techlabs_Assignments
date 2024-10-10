@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class SortedSquaresOfSortedInputs {
  
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+		
+	Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter number of elements in array: ");
         int n = scanner.nextInt();
